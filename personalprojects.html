@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="vieport" content="width = device-width, initial-scale = 1">
         <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet'>
 
         <title>Personal Projects!</title>
 
@@ -14,7 +15,7 @@
 
         <style>
             #content {
-                background-color: #32425c
+                background-color: #fff
             }
 
             #p1 {
@@ -32,12 +33,18 @@
 			  margin-top: 0.8em;
 			  border-radius: 8px;
 			}
+            .font1 {
+                font-family: "Quattrocento";
+                font-size: 18px;
+                background-color: #fff;
+            }
+
 
         </style>
 
     </head>
 
-    <body>
+    <body style="background-color: #D3D3D3">
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -62,7 +69,7 @@
         <!-- End of Header -->
         <p><br></p>
 
-        <div class="container">
+        <div class="font1 container">
             <div class="row">
                 <p>
                     These are my personal projects. I usually start personal projects with a purpose to learn something rather
@@ -70,8 +77,37 @@
                 </p>
             </div>
 
+            <!-- Start of TankRush-->
+            <h4><b>Tank Rush</b>
+                <a href="https://github.com/johnjang/tankraid">
+                        <i class="fa fa-github"></i>
+                </a> 
+                <a class="btn" arial-label="Left Align" href="./tankraid/main.html">
+                    <span class="glyphicon glyphicon-expand" aria-hidden="true"></span>  Click me for a demo! 
+                </a>
+            </h4>
+            <p>I started this project to learn more about JavaScript. I made this game only using pure JavaScript on top of HTML5 canvas.
+               I managed to make a very simple shooting game (with sounds and animations) and ended up learning more about game dynamics
+               and game physics.
+            </p>
+            <ul class="col-md-10 col-md-offset-1">
+                <li>Interactive game made in pure JavaScript!</li>
+                <li>Implemented a rudimentary AI</li>
+            </ul>
+            <div class="row">
+				<div id="ubuntu-skills">
+                    <div class="col-md-10 col-md-offset-1">
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">Game Pyhsics</span>
+                    </div>
+				</div>
+            </div>
+            <p></br></p>
+            <!-- End of TankRush-->
+
+
             <!-- Start of API-->
-            <h4>Ledger API 
+            <h4><b>Ledger API </b>
                 <a href="https://github.com/johnjang/td_ledger">
                         <i class="fa fa-github"></i>
                 </a> 
@@ -82,11 +118,11 @@
                to have some sort of a ledger to keep track of how much I was spending. This service will automatically parse my credit/debit data
                and give me a comprehensive report depending on my choice of filter. Access to this API is firewalled off since it contains
                my personal information, but source code is available in github along with static demo.</p>
-            <div class="col-md-10 col-md-offset-1">
-                <p>RESTful API using golang with sqlite3 as my database</p>
-                <p>Handles and parses my personal bank usage information and applies filters</p>
-                <p>Depending on user requests, it will categorize and show my spendings</p>
-            </div>
+            <ul class="col-md-10 col-md-offset-1">
+                <li>RESTful API using golang with sqlite3 as my database</li>
+                <li>Handles and parses my personal bank usage information and applies filters</li>
+                <li>Depending on user requests, it will categorize and show my spendings</li>
+            </ul>
             <div class="row">
 				<div id="api-skills">
                     <div class="col-md-10 col-md-offset-1">
@@ -101,17 +137,17 @@
             <!-- End of API-->
 
             <!-- Start of Ubuntu -->
-            <h4>Ubuntu Linux System Administration </h4>
+            <h4><b>Ubuntu Linux System Administration</b> </h4>
             <p>I started this project to learn more about Linux and get away from my windows comfort zone. I decomissioned my 
                old laptop and installed Ubuntu server on it. I have my own DNS, DHCP and SSH server running on this server. 
                As matter of fact, this very website you are looking at is being hosted on my machine. Yes I am hosting my own 
                website. This also is my main playground when coding and poking around in linux enviornment.
             </p>
-            <div class="col-md-10 col-md-offset-1">
-                <p>Hosting various personal services such as Nginx for websites, Sqlite3 for database</p>
-                <p>Hosting personal DNS server with cacheing enabled</p>
-                <p>Hosting openSSH with certs for added security</p>
-            </div>
+            <ul class="col-md-10 col-md-offset-1">
+                <li>Hosting various personal services such as Nginx for websites, Sqlite3 for database</li>
+                <li>Hosting personal DNS server with cacheing enabled</li>
+                <li>Hosting openSSH with certs for added security</li>
+            </ul>
             <div class="row">
 				<div id="ubuntu-skills">
                     <div class="col-md-10 col-md-offset-1">
@@ -126,7 +162,7 @@
 
 
             <!-- Start of Website-->
-            <h4>Website 
+            <h4><b>Website </b>
                 <a href="https://github.com/johnjang/website">
                         <i class="fa fa-github"></i>
                 </a> 
@@ -148,47 +184,22 @@
             <!-- End of website-->
 
 
-            <!-- Start of TankRush-->
-            <h4>Tank Rush 
-                <a href="https://github.com/johnjang/tankraid">
-                        <i class="fa fa-github"></i>
-                </a> 
-                <a class="btn" arial-label="Left Align" href="./tankraid/main.html">
-                    <span class="glyphicon glyphicon-expand" aria-hidden="true"></span>  Click me for a demo! 
-                </a>
-            </h4>
-            <p>I started this project to learn more about JavaScript. I made this game only using pure JavaScript on top of HTML5 canvas.
-               I managed to make a very simple shooting game (with sounds and animations) and ended up learning more about game dynamics
-               and game physics.
-            </p>
-            <div class="col-md-10 col-md-offset-1">
-                <p>Interactive game made in pure JavaScript!</p>
-                <p>Implemented a rudimentary AI</p>
-            </div>
-            <div class="row">
-				<div id="ubuntu-skills">
-                    <div class="col-md-10 col-md-offset-1">
-                        <span class="skill">JavaScript</span>
-                        <span class="skill">Game Pyhsics</span>
-                    </div>
-				</div>
-            </div>
-            <p></br></p>
-            <!-- End of TankRush-->
         </div>
 
 
+            <p></br></p>
+            <p></br></p>
+            <p></br></p>
         <div align="center">
-            <h1 style="font-family: Sofia">Future Projects</h1>
+            <h1 style="font-family: Sofia">Future/Ongoing Projects</h1>
         </div>
 
         <div class="container">
             <div class="row">
                 <p>
-                    Some projects that I intend to start or just have started recently. My list of "Looks fun and new! I will give it a shot!"
+                    </br>Some projects that I intend to start or just have started recently. My list of "Looks fun and new! I will give it a shot!"
                 </p>
                 <p></br></p>
-
                 <!-- Start of CCNA-->
                 <div class="row">
                     <h4>CCNA (Cisco Certified Netowrk Administration)</h4> 
